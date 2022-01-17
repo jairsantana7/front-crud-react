@@ -21,7 +21,7 @@ export default function useApi(config) {
     let response = null;
 
     const finalConfig = {
-      baseURL: "http://localhost:5000",
+      baseURL: "https://api-160122.herokuapp.com",
       updateRequestInfo: newInfo => newInfo,
       ...config,
       ...localConfig
