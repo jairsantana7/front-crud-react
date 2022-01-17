@@ -1,0 +1,17 @@
+form {
+  position: relative;
+}
+.promotion-form_group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.send {
+  position: absolute;
+  right: 0;
+  margin-top: 20px;
+  line-height: 30px;
+  width: 150px;
+  max-width: 150px;
+}
